@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://api.steampowered.com",
+  "proxy": "https://loquacious-lamington-ebdd38.netlify.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
