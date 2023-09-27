@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [serverList, setServerList] = useState([]);
-  const apiKey = "B27121BA1951A368156793847434CDA3";
+  const apiKey = "915D6B0678F4CEC1DF7D45E01C5C51B8";
   const apiUrl = `https://api.steampowered.com/IGameServersService/GetServerList/v1/?key=${apiKey}&limit=40000&filter=\\appid\\730\\name_match\\Valve%20CS:GO*Server*`;
   useEffect(() => {
     // Make a GET request to the Steam API
